@@ -1,0 +1,106 @@
+.bug {
+	width: 95px;
+	height: 100px;
+	background: url('../assets/types.jpg') -10px -7px;
+}
+.dark {
+	width: 95px;
+	height: 100px;
+	background: url('../assets/types.jpg') -110px -7px;
+}
+.dragon {
+	width: 95px;
+	height: 100px;
+	background: url('../assets/types.jpg') -210px -7px;
+}
+.electric {
+	width: 95px;
+	height: 100px;
+	background: url('../assets/types.jpg') -310px -7px;
+}
+.fairy {
+	width: 95px;
+	height: 100px;
+	background: url('../assets/types.jpg') -410px -7px;
+}
+
+.fighting {
+	width: 95px;
+	height: 100px;
+	background: url('../assets/types.jpg') -509px -7px;
+}
+
+.fire {
+	width: 95px;
+	height: 100px;
+	background: url('../assets/types.jpg') -10px -225px;
+}
+
+.flying {
+	width: 95px;
+	height: 100px;
+	background: url('../assets/types.jpg') -110px -225px;
+}
+
+.ghost {
+	width: 95px;
+	height: 100px;
+	background: url('../assets/types.jpg') -210px -225px;
+}
+.grass {
+	width: 95px;
+	height: 100px;
+	background: url('../assets/types.jpg') -310px -225px;
+}
+.ground {
+	width: 95px;
+	height: 100px;
+	background: url('../assets/types.jpg') -409px -225px;
+}
+
+.ice {
+	width: 95px;
+	height: 100px;
+	background: url('../assets/types.jpg') -508px -225px;
+}
+
+.normal {
+	width: 95px;
+	height: 100px;
+	background: url('../assets/types.jpg') -10px -440px;
+}
+.poison {
+	width: 95px;
+	height: 100px;
+	background: url('../assets/types.jpg') -110px -440px;
+}
+.psychic {
+	width: 95px;
+	height: 100px;
+	background: url('../assets/types.jpg') -210px -440px;
+}
+.rock {
+	width: 95px;
+	height: 100px;
+	background: url('../assets/types.jpg') -309px -440px;
+}
+.steel {
+	width: 95px;
+	height: 100px;
+	background: url('../assets/types.jpg') -409px -440px;
+}
+.water {
+	width: 95px;
+	height: 100px;
+	background: url('../assets/types.jpg') -508px -440px;
+}
+
+.card {
+	flex-direction: row;
+	box-shadow: 2px 4px #888888;
+}
+
+.card:hover {
+	cursor: pointer;
+	box-shadow: 5px 10px #888888;
+}
