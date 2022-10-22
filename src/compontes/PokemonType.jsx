@@ -1,8 +1,10 @@
+import { useNavigate } from 'react-router-dom';
 import '../styles/pokemonStyle.css';
 
 export const PokemonType = ({ type }) => {
+	const navigate = useNavigate();
 	const onClickType = () => {
-		alert('alert');
+		navigate(`/list/${type.name}`);
 	};
 
 	return (

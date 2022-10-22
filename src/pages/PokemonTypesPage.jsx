@@ -87,7 +87,7 @@ export const PokemonTypesPage = () => {
 	return (
 		<>
 			<div className='container bgcolor-app'>
-				<h1>Tipos de pokemon</h1>
+				<h1>Tipos de pokemon </h1>
 				<small>
 					Haga click en un tipo de pokemón para ver sus diferentis pokemons y
 					caracteristicas
@@ -95,7 +95,7 @@ export const PokemonTypesPage = () => {
 				<hr />
 				<div className='row'>
 					{pokemonTypes.map(type => (
-						<div key={type.name} className='col-md-3 col-sm-4 col-xs-6 mt-3'>
+						<div key={type.name} className='col-md-4 col-xl-3 mt-3'>
 							<PokemonType type={type} />
 						</div>
 					))}
